@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GuestMaster.master.cs" Inherits="Assignment5.Question2.Guest.GuestMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../Css/StyleSheet1.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+             <div class="wrapper">
+            <div class="menu">
+                    <a href="Default.aspx">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="UserReg.aspx">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Login.aspx">Login</a>
+            </div>
+            <div class="clear"></div>
+            <div class="content">
+                </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
